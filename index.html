@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>webdoc5-iB version: 1.0</title>	
+		<!-- 
+			Included bootstrap css files, 
+			"bootstrap.min.css" is required file.
+			"bootstrap-responsive.min.css" is required file if and only if the website is responsive.
+			
+			** NOTE: if the website is responsive, bootstrap.min.css file 
+			should come first followed by bootstrap-responsive.min.css
+			
+		-->
+		<link rel="stylesheet" href="js/bootstrap/css/bootstrap.min.css">
+		<link rel="stylesheet" href="js/bootstrap/css/bootstrap-responsive.min.css">
+		<!-- 
+			Internal style is not part of Bootstrap, its a custom style applied for the 
+			document for example working and understanding.
+		-->
+		<style></style>
+        
+        <!-- 
+			Below internal style is not part of Bootstrap, 
+            CSS3Pie have been included to overcome the IE issues.
+		-->
+        <style>
+			.btn {
+				/* CSS 3 Pie Support */
+				behavior: url(js/pie/PIE.htc);
+			}	
+		</style>
+	</head>
+	<body>    
+    			
+		<!-- All JavaScript plugins require jQuery to be included. -->
+		<script src="js/jquery/jquery.js"></script>
+		<!-- Included bootstrap javascript file. "bootstrap.min.js" is required file. -->
+		<script src="js/bootstrap/js/bootstrap.min.js"></script>
+	</body>
+</html>	
